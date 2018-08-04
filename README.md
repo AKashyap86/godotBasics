@@ -83,71 +83,40 @@ MODULES USED
 
 1 --> Godot Ads AIO by frogsquare https://github.com/FrogSquare/GodotAds simply because it has so many ad modules
 
-2 --> Godot gpgs by Kopfenheim https://github.com/Kopfenheim/godot-gpgs simply because of sheer level of documentation
+2 --> Godot gpgs by Kopfenheim https://github.com/Kopfenheim/godot-gpgs simply because of sheer level of documentation as well as features
 
 
 
 
 ---
 
-CODE WILL BE ADDED BELOW
+CODE WILL BE ADDED in other files. this is just an intro file which collects main tutorials and modules etc which you can learn to code. I will post my code contributions in subsequent files !
 ---
 
 
-First I like to follow a structure for my game folders-->
+I like to follow a structure for my game folders-->
 
-Separate folders -->
-This will be shown in this tutorial series ..
+Separate organized folders, like main scenes, then game elements and so on !
 
-A typical structure -- This is a rigid body 2d platformer template extended by using the default rigid body 2d template
-Root ----
--- scenes
----- characters
-  players
-    playerBody.tscn #scene which contains the player body (will be added as child of main player scene on runtime)
-    playerHUD.tscn #scene which contains the player 
-    playerControls.tscn
-    player.tscn
-  enemies
-  allies
-  npcs
-  dialogs
-  projectiles
-  lasers
-  connect
----- objects
-  interactables
-  collectables
-  platforms
-    movingPlatform.tscn
-    stationaryPlatform.tscn
-    swingPlatform.tscn
-    
-  passables
-    checkpoints.tscn
-    death.tscn
-    
----- menus
-  areas
-  common
-  credits
-  help
-  main
-  player
-  settings
-  etc..
----- particles
-  burningLogs.tscn
-  streetLamp.tscn
-  fire.tscn
-  smoke.tscn
-  etc...
----- popups
----- shaders
----- worlds
-----------------
----------------------
 
+
+
+--------------------------
+GAMES & tutorials to learn from 
+------------------
+https://github.com/godotengine/godot-demo-projects
+https://github.com/GDquest/Godot-engine-tutorial-demos
+https://github.com/vnen/Godot-24-Hours
+https://github.com/arypbatista/godot-game-of-life
+https://github.com/w84death/Tanks-of-Freedom
+https://github.com/Hirnbix/captain-holetooth
+https://github.com/Jbat1Jumper/erythrina
+https://github.com/TutorialDoctor/TD-Godot-Games
+
+
+More Links -->
+--
+https://github.com/Calinou/awesome-godot
 
 
 
