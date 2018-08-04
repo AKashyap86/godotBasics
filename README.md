@@ -24,12 +24,20 @@ This will cover mostly targeting android and operating system for godot x11 as l
 
 If any problems apart from this, do the simple steps below -->
 
---> Update your operating system.
-Linux commands to update -->
+--> Update your operating system. -
+Linux commands to update the computer-->
 sudo apt update && sudo apt upgrade
-sudo do release upgrade
+sudo apt autoremove
+sudo apt dist-upgrade
+sudo do-release-upgrade
+There might be other commands at times but these are basic which are needed to do it.
 
 --> Update the graphics drivers.
+Linux, in start, system tools, software updater, settings -->
+then set it to proprietary best driver, maybe one which you have downloaded from your graphics card manufacturers site.
+
+
+
 --> 
 
 
