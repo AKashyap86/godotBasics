@@ -12,7 +12,9 @@ Step1 --> Download godot engine !!
 
 https://github.com/godotengine/godot
 
+
 How to build godot for linux -->
+-
 
 http://docs.godotengine.org/en/3.0/development/compiling/compiling_for_x11.html
 
@@ -20,7 +22,9 @@ Optimized steps I followed for my system -->
 
 scons -j6 platform=x11
 
+
 How to build godot for android -->
+-
 
 http://docs.godotengine.org/en/3.0/development/compiling/compiling_for_android.html
 
@@ -52,8 +56,10 @@ then set it to proprietary best driver, maybe one which you have downloaded from
 well download and compile again for both the systems
 
 
+-
+Godot 2 to godot 3 transition. -->
+-
 
-Godot 2 to godot 3 transition.
 1--> Use the in engine converter.
 2--> Then, completely remove, HButtonArray VButtonArray etc, also from code other wise game will crash as per time of using godot 3.0.2 (roughly)
 3--> Then I also needed to change my character (GUI primarily, and animations, some values were different.)
@@ -66,7 +72,9 @@ A lot of that will be my own creation
 ----------------------------
 MODULES USED
 --------------------------
+
 1 --> Godot Ads AIO by frogsquare https://github.com/FrogSquare/GodotAds simply because it has so many ad modules
+
 2 --> Godot gpgs by Kopfenheim https://github.com/Kopfenheim/godot-gpgs simply because of sheer level of documentation
 
 
