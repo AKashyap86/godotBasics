@@ -1,14 +1,20 @@
 # godotEssentials
-This is a repository which will contain essential information including links tutorials about godot engine . For starters I will post links to what all modules I used in making my game, but later on it will contain more complex creations, including my creations if needed.
+This is a repository which will contain essential information including links to tutorials about godot engine . For starters I will post links to what all modules I used in making my game, but later on it will contain more complex creations, including my creations if needed.
 
 NOTE: This first piece of information consists of develepomental meddling so it is not for everyone! Also this is not so advanced , so this is a good medium step I think. You can try if you have got the basics covered up.
 
 How to build godot for android !!
 http://docs.godotengine.org/en/3.0/development/compiling/compiling_for_android.html
 
-If any problems, do the simple steps below -->
+If any problems apart from this, do the simple steps below -->
 
-..>
+--> Update your operating system.
+Linux commands to update -->
+sudo apt update && sudo apt upgrade
+sudo do release upgrade
+
+--> Update the graphics drivers.
+--> 
 
 
 
