@@ -1,4 +1,4 @@
-# godotEssentials
+# godot Basics & Essentials
 This is a repository which will contain essential information including links to tutorials about godot engine.
 
 NOTE: This piece of information might consist develepomental meddling so it is not for everyone! Also this is not very advanced , so this is a good medium step I think. You can try if you have got the basics covered up.
