@@ -3,8 +3,24 @@ This is a repository which will contain essential information including links to
 
 NOTE: This first piece of information consists of develepomental meddling so it is not for everyone! Also this is not so advanced , so this is a good medium step I think. You can try if you have got the basics covered up.
 
-How to build godot for android !!
+Step1 --> Download godot engine !!
+
+https://github.com/godotengine/godot
+
+How to build godot for linux -->
+
+http://docs.godotengine.org/en/3.0/development/compiling/compiling_for_x11.html
+
+Basically optimized steps I followed for my system -->
+
+scons -j6 target=x11
+
+
+
+How to build godot for android -->
 http://docs.godotengine.org/en/3.0/development/compiling/compiling_for_android.html
+
+This will cover mostly targeting android and operating system for godot x11 as linux
 
 If any problems apart from this, do the simple steps below -->
 
