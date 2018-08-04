@@ -33,7 +33,7 @@ scons -j6 platform=android target=release android_arch=x86
 then go to android directory and ./gradlew build
 
 
-This tutorial series will cover mostly targeting android and operating system for godot x11
+This tutorial series will cover mostly targeting linux and android operating systems using godot executables on linux systems.
 ----
 
 If problems check that you have followed all steps in installing dependencies, sometimes copy pasting everything does not install all software, and you might need to manually install the other software
@@ -69,9 +69,13 @@ Bonus / Optional -- Godot 2 to godot 3 transition. -->
 -
 
 1--> Use the in engine converter.
+
 2--> Then, completely remove, HButtonArray VButtonArray etc, also from code other wise game will crash as per time of using godot 3.0.2 (roughly)
+
 3--> Then I also needed to change my character (GUI primarily, and animations, some values were different.)
+
 4--> Then it worked perfect, and working in dev 3.1 
+
 5--> Except shaders of course on mobile. But works perfectly on linux.
 
 So now you got your game running shaders in godot 3.1 dev on linux and able to test all using the upcooming code. More coming in future update including codes. !!
@@ -94,9 +98,7 @@ CODE WILL BE ADDED in other files. this is just an intro file which collects mai
 ---
 
 
-I like to follow a structure for my game folders-->
-
-Separate organized folders, like main scenes, then game elements and so on !
+I like to follow a structure for my game folders. Separate organized folders, like main scenes, then game elements, tiles, textures and so on !
 
 
 
