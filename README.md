@@ -1,7 +1,7 @@
 # godotEssentials
-This is a repository which will contain essential information including links to tutorials about godot engine . For starters I will post links to what all modules I used in making my game, but later on it will contain more complex creations, including my creations if needed.
+This is a repository which will contain essential information including links to tutorials about godot engine.
 
-NOTE: This piece of information might consist develepomental meddling so it is not for everyone! Also this is not so advanced , so this is a good medium step I think. You can try if you have got the basics covered up.
+NOTE: This piece of information might consist develepomental meddling so it is not for everyone! Also this is not very advanced , so this is a good medium step I think. You can try if you have got the basics covered up.
 
 
 ------------------------------------------------------------------------
@@ -58,10 +58,10 @@ There might be other commands at times but these are basic which are needed to d
 --> Update the graphics drivers.
 Linux, in start, system tools, software updater, settings -->
 then set it to proprietary best driver, maybe one which you have downloaded from your graphics card manufacturers site.
+then apply and reboot.
 
-
---> Update the engine version.
-well download and compile again for both the systems
+--> Update the engine version frequently .
+Download and compile again for both the systems.
 
 
 -
