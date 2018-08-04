@@ -9,21 +9,19 @@ HOW TO MAKE A GAME FOR ANDROID AND LINUX USING GODOT ENGINE
 ------------------------------------------------------------------
 
 Step1 --> Download godot engine !!
-
+-
 https://github.com/godotengine/godot
 
 
-How to build godot for linux -->
+Step2 --> Build godot for linux -->
 -
-
 http://docs.godotengine.org/en/3.0/development/compiling/compiling_for_x11.html
 
 Optimized steps I followed for my system -->
 
 scons -j6 platform=x11
 
-
-How to build godot for android -->
+Step3 --> Build godot for android -->
 -
 
 http://docs.godotengine.org/en/3.0/development/compiling/compiling_for_android.html
@@ -32,13 +30,23 @@ Optimized steps I followed for my system -->
 
 scons -j6 platform=android target=release
 scons -j6 platform=android target=release android_arch=x86
+then go to android directory and ./gradlew build
 
-This will cover mostly targeting android and operating system for godot x11 as linux
+
+This tutorial series will cover mostly targeting android and operating system for godot x11
+----
 
 If problems check that you have followed all steps in installing dependencies, sometimes copy pasting everything does not install all software, and you might need to manually install the other software
 
-If any problems apart from this, do the simple steps below -->
+Step4 (Optional) --> Collect engine binaries from the bin folder and place them in your game working directory
+-
+Self explanatory
 
+Code coming in next update
+
+
+If any problems apart from this, do the simple steps below -->
+-
 --> Update your operating system. Then keep updating it every once in a while.
 Linux commands to update the computer-->
 sudo apt update && sudo apt upgrade
@@ -57,7 +65,7 @@ well download and compile again for both the systems
 
 
 -
-Godot 2 to godot 3 transition. -->
+Bonus / Optional -- Godot 2 to godot 3 transition. -->
 -
 
 1--> Use the in engine converter.
@@ -76,5 +84,70 @@ MODULES USED
 1 --> Godot Ads AIO by frogsquare https://github.com/FrogSquare/GodotAds simply because it has so many ad modules
 
 2 --> Godot gpgs by Kopfenheim https://github.com/Kopfenheim/godot-gpgs simply because of sheer level of documentation
+
+
+
+
+---
+
+CODE WILL BE ADDED BELOW
+---
+
+
+First I like to follow a structure for my game folders-->
+
+Separate folders -->
+This will be shown in this tutorial series ..
+
+A typical structure -- This is a rigid body 2d platformer template extended by using the default rigid body 2d template
+Root ----
+-- scenes
+---- characters
+  players
+    playerBody.tscn #scene which contains the player body (will be added as child of main player scene on runtime)
+    playerHUD.tscn #scene which contains the player 
+    playerControls.tscn
+    player.tscn
+  enemies
+  allies
+  npcs
+  dialogs
+  projectiles
+  lasers
+  connect
+---- objects
+  interactables
+  collectables
+  platforms
+    movingPlatform.tscn
+    stationaryPlatform.tscn
+    swingPlatform.tscn
+    
+  passables
+    checkpoints.tscn
+    death.tscn
+    
+---- menus
+  areas
+  common
+  credits
+  help
+  main
+  player
+  settings
+  etc..
+---- particles
+  burningLogs.tscn
+  streetLamp.tscn
+  fire.tscn
+  smoke.tscn
+  etc...
+---- popups
+---- shaders
+---- worlds
+----------------
+---------------------
+
+
 
 
